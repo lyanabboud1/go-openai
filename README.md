@@ -1,7 +1,7 @@
 # Go OpenAI
 [![Go Reference](https://pkg.go.dev/badge/github.com/lyanabboud1/go-openai.svg)](https://pkg.go.dev/github.com/lyanabboud1/go-openai)
 [![Go Report Card](https://goreportcard.com/badge/github.com/lyanabboud1/go-openai)](https://goreportcard.com/report/github.com/lyanabboud1/go-openai)
-[![codecov](https://codecov.io/gh/sashabaranov/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/sashabaranov/go-openai)
+[![codecov](https://codecov.io/gh/lyanabboud1/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/lyanabboud1/go-openai)
 
 This library provides unofficial Go clients for [OpenAI API](https://platform.openai.com/). We support: 
 
