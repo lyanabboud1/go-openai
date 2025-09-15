@@ -271,9 +271,11 @@ type ChatCompletionRequest struct {
 	// MaxCompletionTokens An upper bound for the number of tokens that can be generated for a completion,
 	// including visible output tokens and reasoning tokens https://platform.openai.com/docs/guides/reasoning
 	MaxCompletionTokens  int                           `json:"max_completion_tokens,omitempty"`
+	TotalTokens          int                           `json:"total_tokens,omitempty"`
 	Temperature          float32                       `json:"temperature,omitempty"`
 	TopP                 float32                       `json:"top_p,omitempty"`
 	N                    int                           `json:"n,omitempty"`
+	AnswerIterations     int                           `json:"ans_iterations,omitempty"`
 	Stream               bool                          `json:"stream,omitempty"`
 	Stop                 []string                      `json:"stop,omitempty"`
 	PresencePenalty      float32                       `json:"presence_penalty,omitempty"`
