@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"net/http"
+	"time"
 
 	"github.com/lyanabboud1/go-openai/jsonschema"
 )
@@ -276,6 +277,7 @@ type ChatCompletionRequest struct {
 	TopP                 float32                       `json:"top_p,omitempty"`
 	N                    int                           `json:"n,omitempty"`
 	AnswerIterations     int                           `json:"ans_iterations,omitempty"`
+	EnqueueTime          time.Time                     `json:"enqueue_time,omitempty"`
 	Stream               bool                          `json:"stream,omitempty"`
 	Stop                 []string                      `json:"stop,omitempty"`
 	PresencePenalty      float32                       `json:"presence_penalty,omitempty"`
